@@ -24,7 +24,7 @@ i18n
   .init({
     // in case window.VEDACCIO_LANGUAGE is undefined,it will fall back to 'en-US'
     lng: (window as any)?.__VERDACCIO_BASENAME_UI_OPTIONS?.language || DEFAULT_LANGUAGE,
-    fallbackLng: DEFAULT_LANGUAGE,
+    fallbackLng: 'en-US',
     // Crowdin can export untranslated strings as "", which must fall back to English too
     returnEmptyString: false,
     supportedLngs: [...listLanguagesAsString],

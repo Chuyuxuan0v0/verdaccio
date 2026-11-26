@@ -1,6 +1,6 @@
 import * as Flags from 'country-flag-icons/react/3x2';
 
-export const DEFAULT_LANGUAGE = 'en-US';
+export const DEFAULT_LANGUAGE = 'zh-CN';
 
 export type LanguageConfiguration = {
   lng: string;

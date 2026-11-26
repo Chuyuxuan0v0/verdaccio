@@ -36,7 +36,9 @@ packages/standalone/dist/
 ## ui
 packages/plugins/ui-theme/static
 packages/ui-components/src/components/Readme/github-markdown.css
-/packages/ui-components/src/i18n/download_translations/
+/packages/ui-components/src/i18n/download_translations/*
+!/packages/ui-components/src/i18n/download_translations/zh-CN/
+!/packages/ui-components/src/i18n/download_translations/zh-CN/ui.json
 
 ## ui tests
 !/packages/ui-components/vitest/api/*.tgz
